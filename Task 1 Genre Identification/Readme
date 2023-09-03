@@ -1,1 +1,28 @@
+# Genre Identification Using Movie Plots
 
+The "Genre Identification Using Movie Plots" project is an application of machine learning that aims to automatically classify movie genres based on their plot summaries. This project leverages natural language processing techniques, specifically TF-IDF (Term Frequency-Inverse Document Frequency) vectorization, and a multi-label classification algorithm, typically Logistic Regression.
+
+## Features
+
+- **Data Preprocessing:** The project preprocesses plot summaries, removing HTML tags, non-alphabetical characters, and stopwords. Stemming is applied for feature extraction.
+
+- **TF-IDF Vectorization:** A TF-IDF vectorizer is employed to convert text data into numerical features, capturing the importance of words in each plot summary.
+
+- **Multi-label Classification:** The model is capable of assigning multiple genres to a single movie, as movies often belong to multiple genres simultaneously.
+
+- **Evaluation Metrics:** The project includes metrics like accuracy, precision, recall, and F1-score for assessing model performance.
+
+- **Visualization:** Confusion matrices and ROC (Receiver Operating Characteristic) curves are visualized to provide insights into model behavior.
+
+## Usage
+
+Users can apply this project for genre identification in several steps:
+
+1. Prepare a dataset with movie plot summaries and genre labels.
+2. Preprocess the data using the provided functions.
+3. Utilize the TF-IDF vectorizer to extract features.
+4. Train the model on the preprocessed data.
+5. Evaluate the model using metrics and visualizations.
+6. Apply the trained model to predict genres for new movie plots.
+
+This project finds applications in movie recommendation systems, content categorization, and database organization by genre. It offers a robust and scalable solution for genre classification based on plot descriptions.
